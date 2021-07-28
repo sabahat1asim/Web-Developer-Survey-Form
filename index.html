@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+</head>
+<body>
+   
+    <div id="heading">
+    <h1 id=title> <strong> Developer! Survey Form </strong></h1>
+    <p id="description"> Thank you for taking the time.We would like  to know about programming languages and frameworks that are using for web developnment! Every Developers suggestion are very essential to us!</p>
+    </div>
+    <div id="main">
+        <form id="survey-form">
+        <div id="input-fields">
+            <label id="name-label"><b>Name:</b></label>
+
+            <br>
+            <br>
+            <input id="name" type="name" name="name" class="form" required placeholder="Full Name"><br>
+            <label id="email-label"><b>Email:</b></label>
+
+            <br>
+            <br>
+        
+    
+            <input id="email" type="email" name="email" class="form" required placeholder="example@mail.com"><br>
+             
+            <br>
+            <label id="number-label"><b>Age:</b></label>
+            <br>
+            <br>
+            <input id="number" type="number" name="number" class="form" min="5" max="99" placeholder="12+">
+         </div>
+         <div id="dropdown-div"><br>
+            <label id="dropdown-label"><strong>Programming language you are expert at: </strong></label><br>
+            <br>
+            <select id="dropdown" name="code-lang" class="form">
+                <option value="C">C (Programming Language)</option>
+                <option value="html">HTML</option>
+                <option value="CSS">CSS</option>
+                <option value="Js">Java Script</option>
+                <option value="c sharp">c#</option>
+                <option value="C++">C++</option>
+                <option value="Java">Java</option>
+                <option value="Rubby">Rubby</option>
+            </select>
+         </div>
+         <div id="button-area">
+             <br>
+            <label id="job-label"><b>Employment Status:</b></label><br>
+            <input type="radio" class="radio-inline" name="gender" value="employed" checked> Full-time job holder.(Employed)<br>
+            <input type="radio" class="radio-inline" name="gender" value="freelancer"> Part-time job holder.(Freelancer)<br>
+            <input type="radio" class="radio-inline" name="gender" value="applier"> Looking for a job.(Applier)<br>
+            <input type="radio" class="radio-inline" name="gender" value="unemployed"> I am a student.(Unemployed)
+          </div>
+          
+
+          <div id="dropdown"><br><br>
+            <label id="dropdown-label"><strong>Programming language you wanna be expert: </strong></label><br>
+            <select id="dropdown" name="code-lang" class="form"><br><br>
+                <option value="C">C (Programming Language)</option>
+                <option value="Python">Python</option>
+                <option value="C#">C#</option>
+                <option value="php">PHP</option>
+                <option value="Js">Java Script</option>
+                <option value="Go">Go (Programming Language)</option>
+                <option value="ruby">Ruby on rails</option>
+                <option value="C++">C++</option>
+                <option value="Java">Java</option>
+            </select>
+         </div>
+          <div id="button-area"><br><br>
+            <label id="os-label"><b>Latest technology FrameWork :</b></label><br>
+
+            <input type="checkbox" name="tech1" value="React"> Flutter <br>
+            <input type="checkbox" name="tech1" value="flutter"> Flutter UI<br>
+            <input type="checkbox" name="tech2" value="nodejs"> Node.js<br>
+            <input type="checkbox" name="tech3" value="tnflow"> Tensorflow<br>
+            <input type="checkbox" name="tech3" value="git"> Github<br>
+            <input type="checkbox" name="tech3" value="devops"> Dev-Ops<br>
+          </div>
+          <!-- Would you recommend freeCodeCamp to a friend? -->
+
+          <div id="button-area1">
+            <br>
+           <label id="job-label"><b>Would you recommend WEB DEVELOPER  as a career?</b></label><br>
+           <input type="radio" class="radio-inline" name="Definitely" value="employed" checked> Definitely<br>
+           <input type="radio" class="radio-inline" name="May be" value="freelancer"> May be<br>
+           <input type="radio" class="radio-inline" name="Not sure" value="applier"> Not sure<br>
+           
+         </div>
+
+          <div id="ending"><br><br>
+            <label id="comments-label">Do you have any suggestion about this survey?</label><br>
+            <textarea style= height:120px;" class="form" placeholder="Please feel free to write a review..."></textarea><br><br>
+            <input id="submit" type="submit"  class="form">
+          </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
